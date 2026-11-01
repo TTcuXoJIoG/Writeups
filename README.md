@@ -1,6 +1,6 @@
 # Writeups
 
-Разборы тасков по CTF и pentest.
+Разборы кейсов по CTF и pentest.
 
 ## Оглавление
 
