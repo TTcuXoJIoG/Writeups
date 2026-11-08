@@ -6,7 +6,7 @@
 <tr><td><b>Класс уязвимости</b></td><td>IDOR (BOLA) + предсказуемый UUIDv1 в роли токена</td></tr>
 <tr><td><b>CWE</b></td><td>CWE-639, CWE-330, CWE-200</td></tr>
 <tr><td><b>Цель</b></td><td><code>https://vintage-bank.solarctf.ru</code></td></tr>
-<tr><td><b>Инструменты</b></td><td>Burp Suite, Python 3 (<code>requests</code>, <code>uuid</code>)</td>
+<tr><td><b>Инструменты</b></td><td>Burp Suite, Python (<code>requests</code>, <code>uuid</code>)</td>
 </table>
 
 ---
@@ -120,7 +120,7 @@ d14dfd00-ca11-11f1-9a2b-0242ac110002
 
 ---
 
-## 5. Публичный журнал `/api/ledger`
+## Публичный журнал `/api/ledger`
 
 ```
 GET /api/ledger
