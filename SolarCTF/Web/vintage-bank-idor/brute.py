@@ -38,7 +38,7 @@ for ord_, name, cell, tok in tokens:
         data = r.json()
         flag = data.get("flag")
         owner = data.get("owner")
-        marker = " <<<< FLAG!" if flag else ""
+        marker = "flag!" if flag else ""
         print(f"{ord_:2d} {name:15s} cell={cell:2d} owner={owner!r:20s} flag={flag!r}{marker}")
     except Exception as e:
         print(f"{ord_:2d} {name:15s} ERROR: {e}")
