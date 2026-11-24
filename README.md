@@ -7,6 +7,7 @@
 ### HackerLab
 - [Web](./HackerLab/Web/README.md)
   - [PDF-библиотека (LFI)](./HackerLab/Web/pdf-library-lfi/README.md)
+  - [Northstar Records (IDOR)](./HackerLab/Web/northstar-records-idor/README.md)
 - [Pentest Machines](./HackerLab/Pentest%20Machines/README.md)
   - [GreenEdge Internal Portal (Command Injection)](./HackerLab/Pentest%20Machines/greenedge-cmdi/README.md)
   - [Boxer (LFI → SUID Privesc)](./HackerLab/Pentest%20Machines/boxer-lfi-suid-capsh/README.md)
